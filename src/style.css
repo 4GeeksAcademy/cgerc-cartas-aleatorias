@@ -1,5 +1,47 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
+/* .container {
+    background-color: whitesmoke;
+    display: none;
+    padding: 100px;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    color: black;
+    position: relative;
+} */
+.card-icon {
+    
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+.top-left-icon {
+    display: flex;
+    justify-content: start;
+    font-size: 90px;
+}
+.top-right-icon {
+    display: flex;
+    justify-content: end;
+    font-size: 90px;
+}
+.center-number-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: 90px;
+}
+
